@@ -1,3 +1,27 @@
+<h2>Agendamento de horários de quadras de futsal</h2>
+
+<h3>Rotas da API</h3>
+
+POST <br>
+<p> /auth/user - Cadastro Usuario</p>
+<p> /auth/login - Login Usuario</p>
+<p> /auth/logout - Logout Usuario</p>
+GET
+<p> /user - Pegar Usuarios cadastrados</p>
+PUT
+<p> /user - Editar Usuario</p>
+GET
+<p> /user/appointments - Pegar agendamentos de horários</p>
+GET
+<p> /courts - Quadras cadastrados no sistema</p>
+POST
+<p> /courts/{id}/appointments - Realizar agendamentamento de horario</p>
+GET
+<p> /court/{id} - Informações de agendamento em quadra especifica</p><br>
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
